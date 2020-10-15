@@ -5,7 +5,9 @@
 */
 
 function sumNumbers(numArray) {
-
+  let sum = 0
+  numArray.forEach((num) => sum = num + sum);
+  return sum;
 }
 
 
