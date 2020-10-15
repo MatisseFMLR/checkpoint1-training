@@ -5,7 +5,9 @@
  */
 
 function addItemsPosition(strArray) {
-
+  let itemList = strArray.map((item, index) => `${index + 1}. ${item}`
+  )
+  return itemList
 }
 
 
